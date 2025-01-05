@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --secondary: #1e40af;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gray-900 text-gray-100;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .contact-card {
+    @apply bg-white/10 backdrop-blur-lg rounded-xl p-4 flex items-center gap-3 transform hover:scale-105 transition-all duration-300;
+  }
+  
+  .icon-wrapper {
+    @apply p-2 rounded-lg bg-white/20 group-hover:bg-white/30 transition-colors duration-300;
+  }
+  
+  .scroll-down-btn {
+    @apply inline-block text-white/80 hover:text-white transition-colors duration-300;
+  }
+  
+  .text-gradient {
+    @apply text-transparent bg-clip-text;
+  }
+}
+
+.skill-progress {
+  width: 0;
+  transition: width 1.5s ease-out;
+}
