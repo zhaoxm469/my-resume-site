@@ -1,5 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# 个人作品集网站
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+使用 Vue 3 + TypeScript + Vite 构建的现代化个人简历网站。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 技术栈
+
+- **前端框架**: Vue 3 + TypeScript
+- **构建工具**: Vite
+- **CSS 框架**: Tailwind CSS
+- **动画效果**: 
+  - GSAP (动画库)
+  - Three.js (3D 效果)
+  - TagCloud (技能标签云)
