@@ -125,7 +125,7 @@ onUnmounted(() => {
                             了解更多
                         </span>
                     </a> -->
-                    <a href="#contact"
+                    <a href="tel:15810275844"
                         class="group px-8 py-3 rounded-full border-2 border-indigo-400 hover:border-purple-500 transition-colors duration-300">
                         <span class="text-white group-hover:text-purple-400 transition-colors duration-300">
                             联系我
